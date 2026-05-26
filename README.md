@@ -35,40 +35,39 @@ Sistema de consola en Java para gestionar solicitudes de servicio de taxi en una
 
 ## Estructura del proyecto
 src/
-├── Main.java
-├── estructuras/
-│   ├── Nodo.java
-│   ├── ListaSimple.java
-│   ├── Cola.java
-│   ├── Pila.java
-│   ├── Vertice.java
-│   ├── Arista.java
-│   ├── ListaAdyacencia.java
-│   └── Grafo.java
-├── modelo/
-│   ├── TipoServicio.java
-│   ├── EstadoSolicitud.java
-│   ├── EstadoConductor.java
-│   ├── Conductor.java
-│   └── Solicitud.java
-├── excepcion/
-│   ├── SistemaTaxisException.java
-│   ├── ZonaInexistenteException.java
-│   ├── SinConectividadException.java
-│   ├── ConductorNoDisponibleException.java
-│   └── SolicitudInvalidaException.java
-├── logica/
-│   ├── EstrategiaTarifa.java
-│   ├── TarifaEstandar.java
-│   ├── TarifaBaul.java
-│   ├── TarifaMascotas.java
-│   ├── GestorAsignacion.java
-│   └── SistemaTaxis.java
-├── persistencia/
-│   └── Persistencia.java
-└── ui/
-└── MenuConsola.java
-
+├── Main.java <br>
+├── estructuras/<br>
+│   ├── Nodo.java<br>
+│   ├── ListaSimple.java<br>
+│   ├── Cola.java<br>
+│   ├── Pila.java<br>
+│   ├── Vertice.java<br>
+│   ├── Arista.java<br>
+│   ├── ListaAdyacencia.java<br>
+│   └── Grafo.java<br>
+├── modelo/<br>
+│   ├── TipoServicio.java<br>
+│   ├── EstadoSolicitud.java<br>
+│   ├── EstadoConductor.java<br>
+│   ├── Conductor.java<br>
+│   └── Solicitud.java<br>
+├── excepcion/<br>
+│   ├── SistemaTaxisException.java<br>
+│   ├── ZonaInexistenteException.java<br>
+│   ├── SinConectividadException.java<br>
+│   ├── ConductorNoDisponibleException.java<br>
+│   └── SolicitudInvalidaException.java<br>
+├── logica/<br>
+│   ├── EstrategiaTarifa.java<br>
+│   ├── TarifaEstandar.java<br>
+│   ├── TarifaBaul.java<br>
+│   ├── TarifaMascotas.java<br>
+│   ├── GestorAsignacion.java<br>
+│   └── SistemaTaxis.java<br>
+├── persistencia/<br>
+│   └── Persistencia.java<br>
+└── ui/<br>
+└── MenuConsola.java<br>
 ## Instrucciones de compilación y ejecución
 
 ### Compilar
